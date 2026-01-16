@@ -1,24 +1,7 @@
 @import "tailwindcss";
 
-body{
-  background-color: #17162b;
-}
-.btn{
-  border: 1px solid white;
-  border-radius: 30%;
-  padding: 15px 15px;
-}
-.btn:hover{
-  background-color: white;
-  color: #17162b;
-  font-weight: bold;
-  cursor: pointer;
-}
-.code{
-  border-radius: 10px;
-  padding: 15px 10px;
-}
-.main{
-  line-height: 70px;
-  margin-bottom: 30px;
+.mains{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
